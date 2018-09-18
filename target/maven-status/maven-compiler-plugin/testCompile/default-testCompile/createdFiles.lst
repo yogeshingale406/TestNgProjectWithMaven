@@ -1,0 +1,9 @@
+PriorityAndDependancy\PriorityTest.class
+ParameterTest\ParameterPassing.class
+simpleTestNG\AnnotationsTestNG.class
+simpleTestNG\DataProviderTest.class
+simpleTestNG\SimpleTestNGTest.class
+GroupsTest\GroupTest1.class
+ParameterTest\OptionalParameters.class
+GroupsTest\GroupTest2.class
+PriorityAndDependancy\DependancyAndPriorityTest.class

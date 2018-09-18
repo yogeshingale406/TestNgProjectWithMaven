@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="11" total="25" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="158" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+    <groups>
+      <group name="One">
+        <method signature="SimpleTestNGTest.test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@59a6e353]" name="test1" class="simpleTestNG.SimpleTestNGTest"/>
+        <method signature="SimpleTestNGTest.test3(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@59a6e353]" name="test3" class="simpleTestNG.SimpleTestNGTest"/>
+      </group> <!-- One -->
+    </groups>
+    <test name="SimpleTestInclude" duration-ms="158" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+      <class name="simpleTestNG.SimpleTestNGTest">
+        <test-method status="PASS" signature="test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@59a6e353]" name="test1" duration-ms="22" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e5792a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@59a6e353]" name="test3" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e5792a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- simpleTestNG.SimpleTestNGTest -->
+    </test> <!-- SimpleTestInclude -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="107" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+    <groups>
+      <group name="feature2">
+        <method signature="AnnotationsTestNG.unitTest4A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="unitTest4A" class="simpleTestNG.AnnotationsTestNG"/>
+      </group> <!-- feature2 -->
+      <group name="feature1">
+        <method signature="AnnotationsTestNG.unitTest2A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@62043840]" name="unitTest2A" class="simpleTestNG.AnnotationsTestNG"/>
+        <method signature="AnnotationsTestNG.unitTest2A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="unitTest2A" class="simpleTestNG.AnnotationsTestNG"/>
+      </group> <!-- feature1 -->
+      <group name="One">
+        <method signature="SimpleTestNGTest.test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test1" class="simpleTestNG.SimpleTestNGTest"/>
+        <method signature="SimpleTestNGTest.test3(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test3" class="simpleTestNG.SimpleTestNGTest"/>
+      </group> <!-- One -->
+      <group name="two">
+        <method signature="SimpleTestNGTest.test2(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test2" class="simpleTestNG.SimpleTestNGTest"/>
+        <method signature="SimpleTestNGTest.test4(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test4" class="simpleTestNG.SimpleTestNGTest"/>
+      </group> <!-- two -->
+    </groups>
+    <test name="TestNGTest" duration-ms="5" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+      <class name="simpleTestNG.AnnotationsTestNG">
+        <test-method status="PASS" signature="unitTest2A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@62043840]" name="unitTest2A" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTest2A -->
+      </class> <!-- simpleTestNG.AnnotationsTestNG -->
+    </test> <!-- TestNGTest -->
+    <test name="TestNGTest 2" duration-ms="69" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+      <class name="simpleTestNG.AnnotationsTestNG">
+        <test-method status="PASS" signature="runSeleniumServer()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="runSeleniumServer" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSeleniumServer -->
+        <test-method status="PASS" signature="OpenDBConnection(org.testng.ITestContext)[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="OpenDBConnection" is-config="true" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59ec2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenDBConnection -->
+        <test-method status="PASS" signature="bClass()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="bClass" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClass -->
+        <test-method status="PASS" signature="browserOpened()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserOpened" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpened -->
+        <test-method status="PASS" signature="TestNgTest1()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="TestNgTest1" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNgTest1 -->
+        <test-method status="PASS" signature="browserClosed()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserClosed" is-config="true" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+        <test-method status="PASS" signature="browserOpened()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserOpened" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpened -->
+        <test-method status="PASS" signature="TestNgTest2()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="TestNgTest2" duration-ms="0" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNgTest2 -->
+        <test-method status="PASS" signature="browserClosed()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserClosed" is-config="true" duration-ms="0" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+        <test-method status="PASS" signature="browserOpened()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserOpened" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpened -->
+        <test-method status="PASS" signature="unitTest2A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="unitTest2A" duration-ms="0" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTest2A -->
+        <test-method status="PASS" signature="browserClosed()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserClosed" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+        <test-method status="PASS" signature="browserOpened()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserOpened" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpened -->
+        <test-method status="PASS" signature="unitTest4A()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="unitTest4A" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTest4A -->
+        <test-method status="PASS" signature="aClass()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="aClass" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+        <test-method status="PASS" signature="browserClosed()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="browserClosed" is-config="true" duration-ms="0" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosed -->
+        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="closeDBConnection" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+        <test-method status="PASS" signature="closeSeleniumServer()[pri:0, instance:simpleTestNG.AnnotationsTestNG@3567135c]" name="closeSeleniumServer" is-config="true" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSeleniumServer -->
+      </class> <!-- simpleTestNG.AnnotationsTestNG -->
+      <class name="simpleTestNG.SimpleTestNGTest">
+        <test-method status="PASS" signature="test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test1" duration-ms="3" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59ec2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test2" duration-ms="1" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59ec2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test3" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59ec2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="test4" duration-ms="4" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59ec2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="testCaptureScreen()[pri:0, instance:simpleTestNG.SimpleTestNGTest@327471b5]" name="testCaptureScreen" duration-ms="2" started-at="2018-09-17T12:16:35Z" finished-at="2018-09-17T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaptureScreen -->
+      </class> <!-- simpleTestNG.SimpleTestNGTest -->
+      <class name="simpleTestNG.DataProviderTest">
+        <test-method status="PASS" signature="Printing(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:simpleTestNG.DataProviderTest@4157f54e]" name="Printing" duration-ms="0" started-at="2018-09-17T12:16:35Z" data-provider="getData" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ra342ra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Printing -->
+        <test-method status="PASS" signature="Printing(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:simpleTestNG.DataProviderTest@4157f54e]" name="Printing" duration-ms="2" started-at="2018-09-17T12:16:35Z" data-provider="getData" finished-at="2018-09-17T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Matt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ms9009ms]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Printing -->
+      </class> <!-- simpleTestNG.DataProviderTest -->
+    </test> <!-- TestNGTest 2 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

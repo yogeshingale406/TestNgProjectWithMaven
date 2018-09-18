@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137" started-at="2018-09-17T12:23:46Z" finished-at="2018-09-17T12:23:46Z">
+    <groups>
+      <group name="One">
+        <method signature="SimpleTestNGTest.test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test1" class="simpleTestNG.SimpleTestNGTest"/>
+      </group> <!-- One -->
+      <group name="two">
+        <method signature="SimpleTestNGTest.test2(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test2" class="simpleTestNG.SimpleTestNGTest"/>
+        <method signature="SimpleTestNGTest.test4(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test4" class="simpleTestNG.SimpleTestNGTest"/>
+      </group> <!-- two -->
+    </groups>
+    <test name="SimpleTestInclude" duration-ms="137" started-at="2018-09-17T12:23:46Z" finished-at="2018-09-17T12:23:46Z">
+      <class name="simpleTestNG.SimpleTestNGTest">
+        <test-method status="PASS" signature="test1(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test1" duration-ms="33" started-at="2018-09-17T12:23:46Z" finished-at="2018-09-17T12:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ec318]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test2" duration-ms="5" started-at="2018-09-17T12:23:46Z" finished-at="2018-09-17T12:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ec318]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test4(org.testng.ITestContext)[pri:0, instance:simpleTestNG.SimpleTestNGTest@36d4b5c]" name="test4" duration-ms="7" started-at="2018-09-17T12:23:46Z" finished-at="2018-09-17T12:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ec318]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- simpleTestNG.SimpleTestNGTest -->
+    </test> <!-- SimpleTestInclude -->
+  </suite> <!-- Suite -->
+</testng-results>

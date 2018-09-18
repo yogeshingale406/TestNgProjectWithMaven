@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="SimpleTestInclude">
+		<groups>
+			<run>
+				<include name="One"></include>
+			</run>
+		</groups>
+		<classes>
+
+			<class name="simpleTestNG.SimpleTestNGTest">
+			<!-- method tag override group tag -->
+							<methods>
+					<include name="test1"></include>
+					<include name="test2"></include>
+					<include name="test4"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
